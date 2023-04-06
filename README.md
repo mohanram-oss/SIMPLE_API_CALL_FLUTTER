@@ -1,16 +1,9 @@
-# api
+First, I updated the PostDetailsScreen to display all the contents of the selected post. I did this by adding Text widgets to display the user ID and post ID fields. I also added labels above each field to make it clear what information is being displayed.
 
-A new Flutter project.
+Next, I updated the layout of the PostListView to make it easier to read. I did this by using a ListView.separated widget instead of a ListView.builder widget. This allowed me to add separators between each post in the list, which makes it easier to distinguish between them.
 
-## Getting Started
+I also added some padding to the PostListView to give it some breathing room, and I increased the font size of the post titles to make them more prominent.
 
-This project is a starting point for a Flutter application.
+Finally, I added a new onTap callback to the PostListView that navigates to the PostDetailsScreen when a post is tapped. This callback passes the selected post as a parameter to the PostDetailsScreen, which allows the screen to display all the contents of the selected post.
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Overall, my goal was to make the app more user-friendly and easier to navigate. By displaying all the contents of the selected post on the PostDetailsScreen and using a ListView.separated widget for the PostListView.
